@@ -1,0 +1,3 @@
+# Email Classification
+Since C3PO is easily bothered by spam, it's better to choose a classifier that is more toward the top-right of the ROC curve. The reason is that as the classifier gets closer to the top-rights, it classifies more input as "positive" or in our case, SPAM, which is ideal for this person (even some actual HAM emails might be classified as SPAM).
+On the contrary, R2D2 cares more about not missing HAM emails. Therefore, a suitable classifier for this person should be very cautious with labeling SPAM, and should be closer to the bottom-left of ROC curve, where more emails are classified as negative (or HAM, in our case).
